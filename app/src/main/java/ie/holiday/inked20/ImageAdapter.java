@@ -36,7 +36,7 @@ public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ImageViewHol
 
 
 
-        Glide.with(mContext).load(uploadCurrent.getImageURL()).into(holder.imageView;
+        Glide.with(mContext).load(uploadCurrent.getImageURL()).into(holder.imageView);
     }
 
     @Override
